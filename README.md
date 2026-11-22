@@ -7,7 +7,7 @@
 | Patch | Description |
 |---|---|
 | **Show team logos in full standings** | In *Standings*, the compact view shows the club logo before the team name, but the full view (P, W, D, L, goals, points) and the form view drop it. Sofascore only shows the logo there when the table is at least 580dp wide, which in practice means tablets. This patch lowers that limit to 0, so the logo is always shown. The header row is adjusted the same way, so the columns stay lined up. |
-| **Show goal difference in full standings** | Adds the goal difference column (*Diff*) after the goals column in the full view, as in the compact view. Sofascore drops it there for football (it only keeps it for handball, rugby, water polo, basketball and baseball). The column is only shown when the table has goal-difference data; the header row uses the same column list. The values shrink their text (8–12sp) to fit, so the table does not scroll sideways. |
+| **Show goal difference in full standings** | Adds the goal difference column (*Diff*) after the goals column in the full view, as in the compact view. Sofascore drops it there for football (it only keeps it for handball, rugby, water polo, basketball and baseball). The column is only shown when the table has goal-difference data; the header row uses the same column list. The values shrink their text (8–12sp) to fit, so the table does not scroll sideways. Column titles are kept on one line, so a title such as *PTS* shrinks a little instead of wrapping to *PT / S*. |
 
 ### How it works
 

@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-22T16:40:00",
+  "created_at": "2026-11-22T17:00:00",
   "description": "Sofascore 26.11.03: show team logos in the full and form standings views, and goal difference in the full view.",
-  "download_url": "https://github.com/DutchPharaoh/SofaScore/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "download_url": "https://github.com/DutchPharaoh/SofaScore/releases/download/v1.1.1/patches-1.1.1.mpp",
   "public_key": null,
   "page_url": "https://github.com/DutchPharaoh/SofaScore",
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
