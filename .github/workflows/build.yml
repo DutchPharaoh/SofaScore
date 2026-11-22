@@ -39,5 +39,5 @@ jobs:
         run: |
           VERSION=$(grep '^version' gradle.properties | cut -d= -f2 | tr -d ' ')
           FILE=$(ls patches/build/libs/patches-*.mpp | head -1)
-          gh release create "v$VERSION" "$FILE" --title "v$VERSION" --notes "Sofascore 26.11.03 patches" \
+          gh release create "v$VERSION" "$FILE" --title "v$VERSION" --notes "Sofascore patches" \
             || gh release upload "v$VERSION" "$FILE" --clobber

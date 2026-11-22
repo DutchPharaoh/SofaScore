@@ -15,7 +15,7 @@ group = "app.dutchpharaoh.sofascore"
 patches {
     about {
         name = "Sofascore Patches (DutchPharaoh)"
-        description = "Patches for Sofascore 26.11.03."
+        description = "Patches for Sofascore 26.11.09 and 26.11.03."
         source = "https://github.com/DutchPharaoh/SofaScore"
         author = "DutchPharaoh"
         contact = "https://github.com/DutchPharaoh/SofaScore/issues"
